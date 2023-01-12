@@ -1,0 +1,59 @@
+*{
+    margin: 40px;
+}
+
+body{
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+#figuras{
+   align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cuadrado{
+width: 100px;
+height: 100px;
+background-color: brown;
+border:6px solid pink;
+/* solid dashed,dothed,dobule,invet*/
+/* border-style: ;*/
+}
+
+#rectangulo{
+width: 100px;
+height: 50px;
+background-color: brown;
+border:6px double pink;
+}
+#circulo{
+width: 100px;
+height: 100px;
+background: linear-gradient(rgb(68, 224, 68),rgb(72, 72, 209)); /*para inserta dos colores en la figura, degradado*/
+border-radius: 50px;
+}
+#triangulo{
+    border-right:solid 50px transparent;
+    border-left:solid 50px transparent;
+    border-top:solid 0px transparent;
+    border-bottom:solid 100px orange;
+}
+#luna{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50px;
+    box-shadow: 25px 10px 0 0 green;
+    margin-top: 15px;
+    margin-left: -20px;
+    }
+    #rombo{
+        width: 80px;
+        height: 80px;
+        background-color: yellowgreen;
+        transform: rotate(45deg) skewY(10deg) skewX(10deg);
+    }
+
+
